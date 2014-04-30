@@ -1,0 +1,933 @@
+TBlackBoard
+v6
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist JenkinsBuild/BlackBoard.app/ResourceRules.plist
+cProcessPCH /var/folders/8g/_4fy7d5x4vs5y2xl3dm0x2wm0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BlackBoard-Prefix-dqunidpflmcuyfgbjmdtjyhogehz/BlackBoard-Prefix.pch.pch BlackBoard/BlackBoard-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/8g/_4fy7d5x4vs5y2xl3dm0x2wm0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BlackBoard-Prefix-fvrsfufxvrvkoqcauicgrbckfper/BlackBoard-Prefix.pch.pch BlackBoard/BlackBoard-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/8g/_4fy7d5x4vs5y2xl3dm0x2wm0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BlackBoard-Prefix-cgmkxwmfwbocwyekglfaimdadkec/BlackBoard-Prefix.pch.pch BlackBoard/BlackBoard-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/ViewController.o /Users/administrator/Documents/Blackboard/BlackBoard/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/AppDelegate.o /Users/administrator/Documents/Blackboard/BlackBoard/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/main.o /Users/administrator/Documents/Blackboard/BlackBoard/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/ViewController.o /Users/administrator/Documents/Blackboard/BlackBoard/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/AppDelegate.o /Users/administrator/Documents/Blackboard/BlackBoard/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/main.o /Users/administrator/Documents/Blackboard/BlackBoard/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/ViewController.o /Users/administrator/Documents/Blackboard/BlackBoard/ViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/AppDelegate.o /Users/administrator/Documents/Blackboard/BlackBoard/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/main.o /Users/administrator/Documents/Blackboard/BlackBoard/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/BlackBoard normal armv7
+cLd /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/BlackBoard normal armv7s
+cLd /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/BlackBoard normal arm64
+cCreateUniversalBinary /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/BlackBoard normal armv7\ armv7s\ arm64
+cCpResource BlackBoard/red.jpeg JenkinsBuild/BlackBoard.app/red.jpeg
+cCpResource BlackBoard/grid.jpeg JenkinsBuild/BlackBoard.app/grid.jpeg
+cCpResource BlackBoard/brown.jpeg JenkinsBuild/BlackBoard.app/brown.jpeg
+cCpResource BlackBoard/yellow.jpeg JenkinsBuild/BlackBoard.app/yellow.jpeg
+cCpResource BlackBoard/BlackBoard.jpeg JenkinsBuild/BlackBoard.app/BlackBoard.jpeg
+cCpResource BlackBoard/voilet.jpeg JenkinsBuild/BlackBoard.app/voilet.jpeg
+cCopyStringsFile /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/en.lproj/InfoPlist.strings BlackBoard/en.lproj/InfoPlist.strings
+cCopyPNGFile /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/blackboard.png BlackBoard/blackboard.png
+cCopyPNGFile /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/line.png BlackBoard/line.png
+cCpResource BlackBoard/green.jpeg JenkinsBuild/BlackBoard.app/green.jpeg
+cCompileStoryboard /Users/administrator/Documents/Blackboard/BlackBoard/Base.lproj/Main.storyboard
+cCpResource BlackBoard/white.jpeg JenkinsBuild/BlackBoard.app/white.jpeg
+cCpResource BlackBoard/erase.jpeg JenkinsBuild/BlackBoard.app/erase.jpeg
+cCpResource BlackBoard/blue.jpeg JenkinsBuild/BlackBoard.app/blue.jpeg
+cCompileAssetCatalog /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app /Users/administrator/Documents/Blackboard/BlackBoard/Images.xcassets
+cProcessInfoPlistFile /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/Info.plist /Users/administrator/Documents/Blackboard/BlackBoard/BlackBoard-Info.plist
+cGenerateDSYMFile /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app.dSYM /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/BlackBoard
+cProcessProductPackaging /Users/administrator/Library/MobileDevice/Provisioning\ Profiles/F4162104-89B6-4483-9195-AD747F1C8929.mobileprovision /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/embedded.mobileprovision
+cTouch /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard.xcent
+cCodeSign /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app
+cValidate /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c00000000534CD5EE0000000000000132
+t1397544430
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+c000000005346417C0000000000000094
+t1397113212
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+c000000005346417C0000000000000096
+t1397113212
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c000000005346417C000000000000036B
+t1397113212
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005346417C000000000000019E
+t1397113212
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000534CD5A900000000004D7BC0
+t1397544361
+s5077952
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000534641800000000000A90C10
+t1397113216
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000534641860000000002759920
+t1397113222
+s41261344
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c000000005346420A0000000000000ADC
+t1397113354
+s2780
+
+N/Users/administrator/Documents/Blackboard/BlackBoard/AppDelegate.m
+c00000000534FBA0100000000000007DD
+t1397733889
+s2013
+
+N/Users/administrator/Documents/Blackboard/BlackBoard/Base.lproj/Main.storyboard
+c00000000535A3CD70000000000000AAF
+t1398422743
+s2735
+
+N/Users/administrator/Documents/Blackboard/BlackBoard/BlackBoard-Info.plist
+c00000000535F4AA90000000000000487
+t1398753961
+s1159
+
+N/Users/administrator/Documents/Blackboard/BlackBoard/BlackBoard-Prefix.pch
+c00000000534FBA010000000000000158
+t1397733889
+s344
+
+N/Users/administrator/Documents/Blackboard/BlackBoard/BlackBoard.jpeg
+c00000000534FBAD600000000000082DD
+t1397734102
+s33501
+
+N/Users/administrator/Documents/Blackboard/BlackBoard/Images.xcassets
+c00000000534FBA010000000000000088
+t1397733889
+s136
+
+N/Users/administrator/Documents/Blackboard/BlackBoard/ViewController.m
+c00000000535A45880000000000002607
+t1398424968
+s9735
+
+N/Users/administrator/Documents/Blackboard/BlackBoard/blackboard.png
+c00000000535757730000000000001153
+t1398232947
+s4435
+
+N/Users/administrator/Documents/Blackboard/BlackBoard/blue.jpeg
+c0000000053563157000000000000017A
+t1398157655
+s378
+
+N/Users/administrator/Documents/Blackboard/BlackBoard/brown.jpeg
+c00000000535A2C1E000000000000027C
+t1398418462
+s636
+
+N/Users/administrator/Documents/Blackboard/BlackBoard/en.lproj/InfoPlist.strings
+c00000000534FBA01000000000000002D
+t1397733889
+s45
+
+N/Users/administrator/Documents/Blackboard/BlackBoard/erase.jpeg
+c0000000053563BC200000000000012CF
+t1398160322
+s4815
+
+N/Users/administrator/Documents/Blackboard/BlackBoard/green.jpeg
+c000000005356313D0000000000000163
+t1398157629
+s355
+
+N/Users/administrator/Documents/Blackboard/BlackBoard/grid.jpeg
+c000000005357649B0000000000000BF7
+t1398236315
+s3063
+
+N/Users/administrator/Documents/Blackboard/BlackBoard/line.png
+c0000000053577A0500000000000050C5
+t1398241797
+s20677
+
+N/Users/administrator/Documents/Blackboard/BlackBoard/main.m
+c00000000534FBA010000000000000157
+t1397733889
+s343
+
+N/Users/administrator/Documents/Blackboard/BlackBoard/red.jpeg
+c000000005356240C00000000000004E5
+t1398154252
+s1253
+
+N/Users/administrator/Documents/Blackboard/BlackBoard/voilet.jpeg
+c00000000535A2BDA000000000000025F
+t1398418394
+s607
+
+N/Users/administrator/Documents/Blackboard/BlackBoard/white.jpeg
+c00000000535A2BF60000000000000605
+t1398418422
+s1541
+
+N/Users/administrator/Documents/Blackboard/BlackBoard/yellow.jpeg
+c00000000535A2B950000000000000163
+t1398418325
+s355
+
+N/Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app
+t1398762197
+s714
+
+N/Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app.dSYM
+t2
+s0
+
+N/Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/Base.lproj/Main.storyboardc
+t1398762196
+s170
+
+N/Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/BlackBoard
+t1398762164
+s206884
+
+N/Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/BlackBoard.jpeg
+t1398762164
+s33501
+
+N/Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/Info.plist
+t1398762196
+s1071
+
+N/Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/PkgInfo
+t1398762196
+s8
+
+N/Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/ResourceRules.plist
+t1398762154
+s150
+
+N/Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/blackboard.png
+t1398762165
+s5463
+
+N/Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/blue.jpeg
+t1398762165
+s378
+
+N/Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/brown.jpeg
+t1398762164
+s636
+
+N/Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/embedded.mobileprovision
+t1398762197
+s9274
+
+N/Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/en.lproj/InfoPlist.strings
+t1398762164
+s42
+
+N/Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/erase.jpeg
+t1398762165
+s4815
+
+N/Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/green.jpeg
+t1398762164
+s355
+
+N/Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/grid.jpeg
+t1398762164
+s3063
+
+N/Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/line.png
+t1398762165
+s24394
+
+N/Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/red.jpeg
+t1398762164
+s1253
+
+N/Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/voilet.jpeg
+t1398762164
+s607
+
+N/Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/white.jpeg
+t1398762165
+s1541
+
+N/Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/yellow.jpeg
+t1398762164
+s355
+
+N/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard.xcent
+t1398762197
+s482
+
+N/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/AppDelegate.o
+t1398762163
+s65744
+
+N/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/BlackBoard
+t1398762164
+s59428
+
+N/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/BlackBoard.LinkFileList
+c00000000535F6AAA000000000000018E
+t1398762154
+s398
+
+N/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/ViewController.o
+t1398762163
+s80252
+
+N/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/main.o
+t1398762163
+s4448
+
+N/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/AppDelegate.o
+t1398762160
+s61684
+
+N/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/BlackBoard
+t1398762164
+s58772
+
+N/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/BlackBoard.LinkFileList
+c00000000535F6AAA000000000000018E
+t1398762154
+s398
+
+N/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/ViewController.o
+t1398762161
+s73648
+
+N/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/main.o
+t1398762161
+s3828
+
+N/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/AppDelegate.o
+t1398762162
+s61684
+
+N/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/BlackBoard
+t1398762164
+s58776
+
+N/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/BlackBoard.LinkFileList
+c00000000535F6AA90000000000000191
+t1398762153
+s401
+
+N/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/ViewController.o
+t1398762162
+s73680
+
+N/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/main.o
+t1398762161
+s3828
+
+N/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/assetcatalog_dependencies.txt
+t1398762174
+s147
+
+N/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/assetcatalog_generated_info.plist
+t1398762174
+s181
+
+N/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/administrator/Library/MobileDevice/Provisioning Profiles/F4162104-89B6-4483-9195-AD747F1C8929.mobileprovision
+c00000000534518A3000000000000243A
+t1397037219
+s9274
+
+N/var/folders/8g/_4fy7d5x4vs5y2xl3dm0x2wm0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BlackBoard-Prefix-cgmkxwmfwbocwyekglfaimdadkec/BlackBoard-Prefix.pch.pch
+t1398753986
+s110828
+
+N/var/folders/8g/_4fy7d5x4vs5y2xl3dm0x2wm0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BlackBoard-Prefix-dqunidpflmcuyfgbjmdtjyhogehz/BlackBoard-Prefix.pch.pch
+t1398753986
+s88252
+
+N/var/folders/8g/_4fy7d5x4vs5y2xl3dm0x2wm0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BlackBoard-Prefix-fvrsfufxvrvkoqcauicgrbckfper/BlackBoard-Prefix.pch.pch
+t1398753986
+s88284
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies861cc329a20fb941^32ae142aa20fb941^---0#1#1#--18"Check dependencies36"1F8FB9E8-B2BC-427F-8DD8-2232221B3DF9-
+
+CCodeSign /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app
+s420454997.214602
+e420454998.671435
+r1
+xCodeSign
+x/Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"[1mCodeSign[0m [1mJenkinsBuild/BlackBoard.app[0m52"[1mCodeSign[0m [1mJenkinsBuild/BlackBoard.app[0m9e0b3755a20fb941^64e9ab56a20fb941^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/0000000000000000^1011"[1mCodeSign[0m [1mJenkinsBuild/BlackBoard.app[0m    cd /Users/administrator/Documents/Blackboard    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    Using code signing identity "iPhone Distribution: Sai Satyam (EV646CP42C)" and provisioning profile "Clearpath" (F4162104-89B6-4483-9195-AD747F1C8929)    /usr/bin/codesign --force --sign 1D5697A2FE08727F4A837AE197E7AEE71A889F25 --resource-rules=/Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/ResourceRules.plist --entitlements /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard.xcent /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app36"0D2CD35A-E5E5-4CDD-B383-AC52971B2BCD-
+bA7591E5F-7DF5-4304-A3AA-D5CD6C73BF48
+
+CCompileAssetCatalog /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app /Users/administrator/Documents/Blackboard/BlackBoard/Images.xcassets
+s420454965.404798
+e420454974.620403
+r1
+xCompileAssetCatalog
+x/Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app
+x/Users/administrator/Documents/Blackboard/BlackBoard/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"[1mCompileAssetCatalog[0m JenkinsBuild/BlackBoard.app [1mBlackBoard/Images.xcassets[0m90"[1mCompileAssetCatalog[0m JenkinsBuild/BlackBoard.app [1mBlackBoard/Images.xcassets[0mbbb66735a20fb941^78d29e3ea20fb941^-177"/* com.apple.actool.compilation-results *//Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@76"file:///Users/administrator/Documents/Blackboard/BlackBoard/Images.xcassets/0000000000000000^1092"[1mCompileAssetCatalog[0m JenkinsBuild/BlackBoard.app [1mBlackBoard/Images.xcassets[0m    cd /Users/administrator/Documents/Blackboard    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphoneos --minimum-deployment-target 6.0 --target-device ipad --compress-pngs --compile /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app /Users/administrator/Documents/Blackboard/BlackBoard/Images.xcassets36"4EC1C48D-7BB2-4F95-879B-FB564F909DCF-
+bA7591E5F-7DF5-4304-A3AA-D5CD6C73BF48
+
+CCompileC build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/AppDelegate.o /Users/administrator/Documents/Blackboard/BlackBoard/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s420454962.292199
+e420454963.200132
+r1
+xCompileC
+xbuild/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/AppDelegate.o
+x/Users/administrator/Documents/Blackboard/BlackBoard/AppDelegate.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/administrator/Documents/Blackboard/BlackBoard/AppDelegate.m
+d/Users/administrator/Documents/Blackboard/BlackBoard/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/administrator/Documents/Blackboard/BlackBoard/AppDelegate.m210"[1mCompileC[0m build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/AppDelegate.o [1mBlackBoard/AppDelegate.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler91ef4a32a20fb941^713c3333a20fb941^---0#0#1#-19%DVTDocumentLocation2@73"file:///Users/administrator/Documents/Blackboard/BlackBoard/AppDelegate.m0000000000000000^3522"[1mCompileC[0m build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/AppDelegate.o [1mBlackBoard/AppDelegate.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/Blackboard    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard-generated-files.hmap -I/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard-own-target-headers.hmap -I/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard-all-target-headers.hmap -iquote /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard-project-headers.hmap -I/Users/administrator/Documents/Blackboard/JenkinsBuild/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/DerivedSources/arm64 -I/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/DerivedSources -F/Users/administrator/Documents/Blackboard/JenkinsBuild -include /var/folders/8g/_4fy7d5x4vs5y2xl3dm0x2wm0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BlackBoard-Prefix-cgmkxwmfwbocwyekglfaimdadkec/BlackBoard-Prefix.pch -MMD -MT dependencies -MF /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/AppDelegate.d --serialize-diagnostics /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/AppDelegate.dia -c /Users/administrator/Documents/Blackboard/BlackBoard/AppDelegate.m -o /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/AppDelegate.o36"00426681-E28F-4F85-9A0C-25D1CC1C89D9-
+bA7591E5F-7DF5-4304-A3AA-D5CD6C73BF48
+
+CCompileC build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/ViewController.o /Users/administrator/Documents/Blackboard/BlackBoard/ViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s420454961.921818
+e420454963.287310
+r1
+xCompileC
+xbuild/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/ViewController.o
+x/Users/administrator/Documents/Blackboard/BlackBoard/ViewController.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/administrator/Documents/Blackboard/BlackBoard/ViewController.m
+d/Users/administrator/Documents/Blackboard/BlackBoard/ViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/administrator/Documents/Blackboard/BlackBoard/ViewController.m216"[1mCompileC[0m build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/ViewController.o [1mBlackBoard/ViewController.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerbe16ec31a20fb941^588d4933a20fb941^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/administrator/Documents/Blackboard/BlackBoard/ViewController.m0000000000000000^3540"[1mCompileC[0m build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/ViewController.o [1mBlackBoard/ViewController.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/Blackboard    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard-generated-files.hmap -I/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard-own-target-headers.hmap -I/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard-all-target-headers.hmap -iquote /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard-project-headers.hmap -I/Users/administrator/Documents/Blackboard/JenkinsBuild/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/DerivedSources/arm64 -I/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/DerivedSources -F/Users/administrator/Documents/Blackboard/JenkinsBuild -include /var/folders/8g/_4fy7d5x4vs5y2xl3dm0x2wm0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BlackBoard-Prefix-cgmkxwmfwbocwyekglfaimdadkec/BlackBoard-Prefix.pch -MMD -MT dependencies -MF /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/ViewController.d --serialize-diagnostics /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/ViewController.dia -c /Users/administrator/Documents/Blackboard/BlackBoard/ViewController.m -o /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/ViewController.o36"1C14ABF7-10DA-4917-B900-C486C0B46028-
+bA7591E5F-7DF5-4304-A3AA-D5CD6C73BF48
+
+CCompileC build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/main.o /Users/administrator/Documents/Blackboard/BlackBoard/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s420454962.362454
+e420454963.111614
+r1
+xCompileC
+xbuild/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/main.o
+x/Users/administrator/Documents/Blackboard/BlackBoard/main.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/administrator/Documents/Blackboard/BlackBoard/main.m
+d/Users/administrator/Documents/Blackboard/BlackBoard/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/administrator/Documents/Blackboard/BlackBoard/main.m196"[1mCompileC[0m build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/main.o [1mBlackBoard/main.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler07ee5c32a20fb941^ff921c33a20fb941^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/administrator/Documents/Blackboard/BlackBoard/main.m0000000000000000^3480"[1mCompileC[0m build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/main.o [1mBlackBoard/main.m[0m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/Blackboard    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard-generated-files.hmap -I/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard-own-target-headers.hmap -I/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard-all-target-headers.hmap -iquote /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard-project-headers.hmap -I/Users/administrator/Documents/Blackboard/JenkinsBuild/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/DerivedSources/arm64 -I/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/DerivedSources -F/Users/administrator/Documents/Blackboard/JenkinsBuild -include /var/folders/8g/_4fy7d5x4vs5y2xl3dm0x2wm0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BlackBoard-Prefix-cgmkxwmfwbocwyekglfaimdadkec/BlackBoard-Prefix.pch -MMD -MT dependencies -MF /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/main.d --serialize-diagnostics /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/main.dia -c /Users/administrator/Documents/Blackboard/BlackBoard/main.m -o /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/main.o36"CB09215B-77A8-41DA-BB90-A9F898206842-
+bA7591E5F-7DF5-4304-A3AA-D5CD6C73BF48
+
+CCompileC build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/AppDelegate.o /Users/administrator/Documents/Blackboard/BlackBoard/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s420454954.162794
+e420454961.043948
+r1
+xCompileC
+xbuild/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/AppDelegate.o
+x/Users/administrator/Documents/Blackboard/BlackBoard/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/administrator/Documents/Blackboard/BlackBoard/AppDelegate.m
+d/Users/administrator/Documents/Blackboard/BlackBoard/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/administrator/Documents/Blackboard/BlackBoard/AppDelegate.m210"[1mCompileC[0m build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/AppDelegate.o [1mBlackBoard/AppDelegate.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerd1082a2aa20fb941^533f0b31a20fb941^---0#0#1#-19%DVTDocumentLocation2@73"file:///Users/administrator/Documents/Blackboard/BlackBoard/AppDelegate.m0000000000000000^3522"[1mCompileC[0m build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/AppDelegate.o [1mBlackBoard/AppDelegate.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/Blackboard    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard-generated-files.hmap -I/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard-own-target-headers.hmap -I/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard-all-target-headers.hmap -iquote /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard-project-headers.hmap -I/Users/administrator/Documents/Blackboard/JenkinsBuild/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/DerivedSources/armv7 -I/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/DerivedSources -F/Users/administrator/Documents/Blackboard/JenkinsBuild -include /var/folders/8g/_4fy7d5x4vs5y2xl3dm0x2wm0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BlackBoard-Prefix-dqunidpflmcuyfgbjmdtjyhogehz/BlackBoard-Prefix.pch -MMD -MT dependencies -MF /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/AppDelegate.dia -c /Users/administrator/Documents/Blackboard/BlackBoard/AppDelegate.m -o /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/AppDelegate.o36"ED07427C-CB69-4148-9CDB-ABFA512342B9-
+bA7591E5F-7DF5-4304-A3AA-D5CD6C73BF48
+
+CCompileC build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/ViewController.o /Users/administrator/Documents/Blackboard/BlackBoard/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s420454954.162311
+e420454961.108935
+r1
+xCompileC
+xbuild/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/ViewController.o
+x/Users/administrator/Documents/Blackboard/BlackBoard/ViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/administrator/Documents/Blackboard/BlackBoard/ViewController.m
+d/Users/administrator/Documents/Blackboard/BlackBoard/ViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/administrator/Documents/Blackboard/BlackBoard/ViewController.m216"[1mCompileC[0m build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/ViewController.o [1mBlackBoard/ViewController.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerb5fb292aa20fb941^1ee21b31a20fb941^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/administrator/Documents/Blackboard/BlackBoard/ViewController.m0000000000000000^3540"[1mCompileC[0m build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/ViewController.o [1mBlackBoard/ViewController.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/Blackboard    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard-generated-files.hmap -I/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard-own-target-headers.hmap -I/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard-all-target-headers.hmap -iquote /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard-project-headers.hmap -I/Users/administrator/Documents/Blackboard/JenkinsBuild/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/DerivedSources/armv7 -I/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/DerivedSources -F/Users/administrator/Documents/Blackboard/JenkinsBuild -include /var/folders/8g/_4fy7d5x4vs5y2xl3dm0x2wm0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BlackBoard-Prefix-dqunidpflmcuyfgbjmdtjyhogehz/BlackBoard-Prefix.pch -MMD -MT dependencies -MF /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/ViewController.d --serialize-diagnostics /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/ViewController.dia -c /Users/administrator/Documents/Blackboard/BlackBoard/ViewController.m -o /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/ViewController.o36"7463C147-AA54-4509-8EF9-4B70ED7CFA53-
+bA7591E5F-7DF5-4304-A3AA-D5CD6C73BF48
+
+CCompileC build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/main.o /Users/administrator/Documents/Blackboard/BlackBoard/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s420454961.052131
+e420454961.136702
+r1
+xCompileC
+xbuild/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/main.o
+x/Users/administrator/Documents/Blackboard/BlackBoard/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/administrator/Documents/Blackboard/BlackBoard/main.m
+d/Users/administrator/Documents/Blackboard/BlackBoard/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/administrator/Documents/Blackboard/BlackBoard/main.m196"[1mCompileC[0m build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/main.o [1mBlackBoard/main.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler92740d31a20fb941^b5fe2231a20fb941^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/administrator/Documents/Blackboard/BlackBoard/main.m0000000000000000^3480"[1mCompileC[0m build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/main.o [1mBlackBoard/main.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/Blackboard    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard-generated-files.hmap -I/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard-own-target-headers.hmap -I/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard-all-target-headers.hmap -iquote /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard-project-headers.hmap -I/Users/administrator/Documents/Blackboard/JenkinsBuild/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/DerivedSources/armv7 -I/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/DerivedSources -F/Users/administrator/Documents/Blackboard/JenkinsBuild -include /var/folders/8g/_4fy7d5x4vs5y2xl3dm0x2wm0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BlackBoard-Prefix-dqunidpflmcuyfgbjmdtjyhogehz/BlackBoard-Prefix.pch -MMD -MT dependencies -MF /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/main.dia -c /Users/administrator/Documents/Blackboard/BlackBoard/main.m -o /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/main.o36"5538A9F8-0412-4EB9-9831-EEDFA82F9F16-
+bA7591E5F-7DF5-4304-A3AA-D5CD6C73BF48
+
+CCompileC build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/AppDelegate.o /Users/administrator/Documents/Blackboard/BlackBoard/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s420454961.109568
+e420454962.291952
+r1
+xCompileC
+xbuild/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/AppDelegate.o
+x/Users/administrator/Documents/Blackboard/BlackBoard/AppDelegate.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/administrator/Documents/Blackboard/BlackBoard/AppDelegate.m
+d/Users/administrator/Documents/Blackboard/BlackBoard/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/administrator/Documents/Blackboard/BlackBoard/AppDelegate.m212"[1mCompileC[0m build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/AppDelegate.o [1mBlackBoard/AppDelegate.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler56491c31a20fb941^4dbd4a32a20fb941^---0#0#1#-19%DVTDocumentLocation2@73"file:///Users/administrator/Documents/Blackboard/BlackBoard/AppDelegate.m0000000000000000^3529"[1mCompileC[0m build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/AppDelegate.o [1mBlackBoard/AppDelegate.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/Blackboard    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard-generated-files.hmap -I/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard-own-target-headers.hmap -I/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard-all-target-headers.hmap -iquote /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard-project-headers.hmap -I/Users/administrator/Documents/Blackboard/JenkinsBuild/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/DerivedSources/armv7s -I/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/DerivedSources -F/Users/administrator/Documents/Blackboard/JenkinsBuild -include /var/folders/8g/_4fy7d5x4vs5y2xl3dm0x2wm0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BlackBoard-Prefix-fvrsfufxvrvkoqcauicgrbckfper/BlackBoard-Prefix.pch -MMD -MT dependencies -MF /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/AppDelegate.d --serialize-diagnostics /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/AppDelegate.dia -c /Users/administrator/Documents/Blackboard/BlackBoard/AppDelegate.m -o /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/AppDelegate.o36"36BE383F-D55F-489D-B691-3FC913D2CFA1-
+bA7591E5F-7DF5-4304-A3AA-D5CD6C73BF48
+
+CCompileC build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/ViewController.o /Users/administrator/Documents/Blackboard/BlackBoard/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s420454961.052141
+e420454962.362222
+r1
+xCompileC
+xbuild/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/ViewController.o
+x/Users/administrator/Documents/Blackboard/BlackBoard/ViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/administrator/Documents/Blackboard/BlackBoard/ViewController.m
+d/Users/administrator/Documents/Blackboard/BlackBoard/ViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/administrator/Documents/Blackboard/BlackBoard/ViewController.m218"[1mCompileC[0m build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/ViewController.o [1mBlackBoard/ViewController.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler2d7c0d31a20fb941^9dbc5c32a20fb941^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/administrator/Documents/Blackboard/BlackBoard/ViewController.m0000000000000000^3547"[1mCompileC[0m build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/ViewController.o [1mBlackBoard/ViewController.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/Blackboard    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard-generated-files.hmap -I/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard-own-target-headers.hmap -I/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard-all-target-headers.hmap -iquote /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard-project-headers.hmap -I/Users/administrator/Documents/Blackboard/JenkinsBuild/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/DerivedSources/armv7s -I/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/DerivedSources -F/Users/administrator/Documents/Blackboard/JenkinsBuild -include /var/folders/8g/_4fy7d5x4vs5y2xl3dm0x2wm0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BlackBoard-Prefix-fvrsfufxvrvkoqcauicgrbckfper/BlackBoard-Prefix.pch -MMD -MT dependencies -MF /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/ViewController.d --serialize-diagnostics /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/ViewController.dia -c /Users/administrator/Documents/Blackboard/BlackBoard/ViewController.m -o /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/ViewController.o36"AB214637-7A9B-4876-B79A-45B69ADD0A3C-
+bA7591E5F-7DF5-4304-A3AA-D5CD6C73BF48
+
+CCompileC build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/main.o /Users/administrator/Documents/Blackboard/BlackBoard/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s420454961.137099
+e420454961.921551
+r1
+xCompileC
+xbuild/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/main.o
+x/Users/administrator/Documents/Blackboard/BlackBoard/main.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/administrator/Documents/Blackboard/BlackBoard/main.m
+d/Users/administrator/Documents/Blackboard/BlackBoard/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/administrator/Documents/Blackboard/BlackBoard/main.m198"[1mCompileC[0m build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/main.o [1mBlackBoard/main.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler6e312331a20fb941^d5eaeb31a20fb941^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/administrator/Documents/Blackboard/BlackBoard/main.m0000000000000000^3487"[1mCompileC[0m build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/main.o [1mBlackBoard/main.m[0m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/Blackboard    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard-generated-files.hmap -I/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard-own-target-headers.hmap -I/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard-all-target-headers.hmap -iquote /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard-project-headers.hmap -I/Users/administrator/Documents/Blackboard/JenkinsBuild/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/DerivedSources/armv7s -I/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/DerivedSources -F/Users/administrator/Documents/Blackboard/JenkinsBuild -include /var/folders/8g/_4fy7d5x4vs5y2xl3dm0x2wm0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BlackBoard-Prefix-fvrsfufxvrvkoqcauicgrbckfper/BlackBoard-Prefix.pch -MMD -MT dependencies -MF /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/main.dia -c /Users/administrator/Documents/Blackboard/BlackBoard/main.m -o /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/main.o36"23C4DCDB-E7ED-4119-AB2E-D3A0DD4A5339-
+bA7591E5F-7DF5-4304-A3AA-D5CD6C73BF48
+
+CCompileStoryboard /Users/administrator/Documents/Blackboard/BlackBoard/Base.lproj/Main.storyboard
+s420454964.695561
+e420454996.532206
+r1
+xCompileStoryboard
+x/Users/administrator/Documents/Blackboard/BlackBoard/Base.lproj/Main.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"[1mCompileStoryboard[0m [1mBlackBoard/Base.lproj/Main.storyboard[0m71"[1mCompileStoryboard[0m [1mBlackBoard/Base.lproj/Main.storyboard[0m193ab234a20fb941^703f8854a20fb941^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/administrator/Documents/Blackboard/BlackBoard/Base.lproj/Main.storyboard0000000000000000^843"[1mCompileStoryboard[0m [1mBlackBoard/Base.lproj/Main.storyboard[0m    cd /Users/administrator/Documents/Blackboard    export IBSC_MINIMUM_COMPATIBILITY_VERSION=6.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 6.0 --output-format human-readable-text --compile /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/Base.lproj/Main.storyboardc /Users/administrator/Documents/Blackboard/BlackBoard/Base.lproj/Main.storyboard36"454FE3AF-5184-4218-9031-7CE397CCDBEC-
+bA7591E5F-7DF5-4304-A3AA-D5CD6C73BF48
+
+CCopyPNGFile /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/blackboard.png BlackBoard/blackboard.png
+s420454964.576226
+e420454965.378320
+r1
+xCopyPNGFile
+x/Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/blackboard.png
+xBlackBoard/blackboard.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"[1mCopyPNGFile[0m JenkinsBuild/BlackBoard.app/blackboard.png BlackBoard/blackboard.png88"[1mCopyPNGFile[0m JenkinsBuild/BlackBoard.app/blackboard.png BlackBoard/blackboard.png7ba29334a20fb941^5bea6035a20fb941^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/administrator/Documents/Blackboard/BlackBoard/blackboard.png0000000000000000^636"[1mCopyPNGFile[0m JenkinsBuild/BlackBoard.app/blackboard.png BlackBoard/blackboard.png    cd /Users/administrator/Documents/Blackboard    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/administrator/Documents/Blackboard/BlackBoard/blackboard.png /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/blackboard.png36"7F1C8ABA-72C9-49F8-9916-EEA6A6768F3A-
+bA7591E5F-7DF5-4304-A3AA-D5CD6C73BF48
+
+CCopyPNGFile /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/line.png BlackBoard/line.png
+s420454964.576456
+e420454965.377532
+r1
+xCopyPNGFile
+x/Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/line.png
+xBlackBoard/line.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"[1mCopyPNGFile[0m JenkinsBuild/BlackBoard.app/line.png BlackBoard/line.png76"[1mCopyPNGFile[0m JenkinsBuild/BlackBoard.app/line.png BlackBoard/line.png00ab9334a20fb941^10c96035a20fb941^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/administrator/Documents/Blackboard/BlackBoard/line.png0000000000000000^612"[1mCopyPNGFile[0m JenkinsBuild/BlackBoard.app/line.png BlackBoard/line.png    cd /Users/administrator/Documents/Blackboard    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/administrator/Documents/Blackboard/BlackBoard/line.png /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/line.png36"70FF5C2B-7C05-4677-AA36-54B3450B44F9-
+bA7591E5F-7DF5-4304-A3AA-D5CD6C73BF48
+
+CCopyStringsFile /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/en.lproj/InfoPlist.strings BlackBoard/en.lproj/InfoPlist.strings
+s420454964.563851
+e420454964.615553
+r1
+xCopyStringsFile
+x/Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/en.lproj/InfoPlist.strings
+xBlackBoard/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy BlackBoard/en.lproj/InfoPlist.strings116"[1mCopyStringsFile[0m JenkinsBuild/BlackBoard.app/en.lproj/InfoPlist.strings BlackBoard/en.lproj/InfoPlist.stringsae829034a20fb941^32779d34a20fb941^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/administrator/Documents/Blackboard/BlackBoard/en.lproj/InfoPlist.strings0000000000000000^610"[1mCopyStringsFile[0m JenkinsBuild/BlackBoard.app/en.lproj/InfoPlist.strings BlackBoard/en.lproj/InfoPlist.strings    cd /Users/administrator/Documents/Blackboard    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/en.lproj -- BlackBoard/en.lproj/InfoPlist.strings36"9F9EA3CA-E65D-4D80-B627-1C417507FA0A-
+bA7591E5F-7DF5-4304-A3AA-D5CD6C73BF48
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist JenkinsBuild/BlackBoard.app/ResourceRules.plist
+s420454954.118822
+e420454954.156229
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+xJenkinsBuild/BlackBoard.app/ResourceRules.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy JenkinsBuild/BlackBoard.app/ResourceRules.plist188"[1mCpResource[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist JenkinsBuild/BlackBoard.app/ResourceRules.pliste50a1f2aa20fb941^7aff272aa20fb941^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/ResourceRules.plist00343452dfffdf42^902"[1mCpResource[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist JenkinsBuild/BlackBoard.app/ResourceRules.plist    cd /Users/administrator/Documents/Blackboard    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app36"26FCA2D0-E68C-4604-8850-D2F853C3D23D-
+bA7591E5F-7DF5-4304-A3AA-D5CD6C73BF48
+
+CCpResource BlackBoard/BlackBoard.jpeg JenkinsBuild/BlackBoard.app/BlackBoard.jpeg
+s420454964.555612
+e420454964.576000
+r1
+xCpResource
+xBlackBoard/BlackBoard.jpeg
+xJenkinsBuild/BlackBoard.app/BlackBoard.jpeg
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy JenkinsBuild/BlackBoard.app/BlackBoard.jpeg89"[1mCpResource[0m BlackBoard/BlackBoard.jpeg JenkinsBuild/BlackBoard.app/BlackBoard.jpeg3f588e34a20fb941^037c9334a20fb941^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/BlackBoard.jpeg00343452dfffdf42^750"[1mCpResource[0m BlackBoard/BlackBoard.jpeg JenkinsBuild/BlackBoard.app/BlackBoard.jpeg    cd /Users/administrator/Documents/Blackboard    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/administrator/Documents/Blackboard/BlackBoard/BlackBoard.jpeg /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app36"DAABC971-18B7-486A-A11D-D865CAC8660E-
+bA7591E5F-7DF5-4304-A3AA-D5CD6C73BF48
+
+CCpResource BlackBoard/blue.jpeg JenkinsBuild/BlackBoard.app/blue.jpeg
+s420454965.397127
+e420454965.419542
+r1
+xCpResource
+xBlackBoard/blue.jpeg
+xJenkinsBuild/BlackBoard.app/blue.jpeg
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy JenkinsBuild/BlackBoard.app/blue.jpeg77"[1mCpResource[0m BlackBoard/blue.jpeg JenkinsBuild/BlackBoard.app/blue.jpeg81cd6535a20fb941^e4676b35a20fb941^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/blue.jpeg00343452dfffdf42^732"[1mCpResource[0m BlackBoard/blue.jpeg JenkinsBuild/BlackBoard.app/blue.jpeg    cd /Users/administrator/Documents/Blackboard    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/administrator/Documents/Blackboard/BlackBoard/blue.jpeg /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app36"E822396C-CC72-45F8-BB62-45CA78DA3536-
+bA7591E5F-7DF5-4304-A3AA-D5CD6C73BF48
+
+CCpResource BlackBoard/brown.jpeg JenkinsBuild/BlackBoard.app/brown.jpeg
+s420454964.530094
+e420454964.563494
+r1
+xCpResource
+xBlackBoard/brown.jpeg
+xJenkinsBuild/BlackBoard.app/brown.jpeg
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy JenkinsBuild/BlackBoard.app/brown.jpeg79"[1mCpResource[0m BlackBoard/brown.jpeg JenkinsBuild/BlackBoard.app/brown.jpeg5edb8734a20fb941^6e4f9034a20fb941^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/brown.jpeg00343452dfffdf42^735"[1mCpResource[0m BlackBoard/brown.jpeg JenkinsBuild/BlackBoard.app/brown.jpeg    cd /Users/administrator/Documents/Blackboard    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/administrator/Documents/Blackboard/BlackBoard/brown.jpeg /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app36"1C3B92BC-B2E6-4F70-83AD-E6C8B0F82E1E-
+bA7591E5F-7DF5-4304-A3AA-D5CD6C73BF48
+
+CCpResource BlackBoard/erase.jpeg JenkinsBuild/BlackBoard.app/erase.jpeg
+s420454965.379022
+e420454965.404593
+r1
+xCpResource
+xBlackBoard/erase.jpeg
+xJenkinsBuild/BlackBoard.app/erase.jpeg
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy JenkinsBuild/BlackBoard.app/erase.jpeg79"[1mCpResource[0m BlackBoard/erase.jpeg JenkinsBuild/BlackBoard.app/erase.jpege1436135a20fb941^46976735a20fb941^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/erase.jpeg00343452dfffdf42^735"[1mCpResource[0m BlackBoard/erase.jpeg JenkinsBuild/BlackBoard.app/erase.jpeg    cd /Users/administrator/Documents/Blackboard    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/administrator/Documents/Blackboard/BlackBoard/erase.jpeg /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app36"A0D45BAC-02D4-4403-AA6D-7C520EF958F9-
+bA7591E5F-7DF5-4304-A3AA-D5CD6C73BF48
+
+CCpResource BlackBoard/green.jpeg JenkinsBuild/BlackBoard.app/green.jpeg
+s420454964.615844
+e420454964.695203
+r1
+xCpResource
+xBlackBoard/green.jpeg
+xJenkinsBuild/BlackBoard.app/green.jpeg
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy JenkinsBuild/BlackBoard.app/green.jpeg79"[1mCpResource[0m BlackBoard/green.jpeg JenkinsBuild/BlackBoard.app/green.jpega6b99d34a20fb941^2c45b234a20fb941^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/green.jpeg00343452dfffdf42^735"[1mCpResource[0m BlackBoard/green.jpeg JenkinsBuild/BlackBoard.app/green.jpeg    cd /Users/administrator/Documents/Blackboard    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/administrator/Documents/Blackboard/BlackBoard/green.jpeg /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app36"8C3CFA16-D8E2-49CE-BD82-77CC6D334343-
+bA7591E5F-7DF5-4304-A3AA-D5CD6C73BF48
+
+CCpResource BlackBoard/grid.jpeg JenkinsBuild/BlackBoard.app/grid.jpeg
+s420454964.529527
+e420454964.555178
+r1
+xCpResource
+xBlackBoard/grid.jpeg
+xJenkinsBuild/BlackBoard.app/grid.jpeg
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy JenkinsBuild/BlackBoard.app/grid.jpeg77"[1mCpResource[0m BlackBoard/grid.jpeg JenkinsBuild/BlackBoard.app/grid.jpeg91b48734a20fb941^57248e34a20fb941^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/grid.jpeg00343452dfffdf42^732"[1mCpResource[0m BlackBoard/grid.jpeg JenkinsBuild/BlackBoard.app/grid.jpeg    cd /Users/administrator/Documents/Blackboard    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/administrator/Documents/Blackboard/BlackBoard/grid.jpeg /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app36"0D3B8878-A333-4248-B62F-35620C14FDE2-
+bA7591E5F-7DF5-4304-A3AA-D5CD6C73BF48
+
+CCpResource BlackBoard/red.jpeg JenkinsBuild/BlackBoard.app/red.jpeg
+s420454964.529150
+e420454964.547891
+r1
+xCpResource
+xBlackBoard/red.jpeg
+xJenkinsBuild/BlackBoard.app/red.jpeg
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy JenkinsBuild/BlackBoard.app/red.jpeg75"[1mCpResource[0m BlackBoard/red.jpeg JenkinsBuild/BlackBoard.app/red.jpeg0a9d8734a20fb941^5f438c34a20fb941^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/red.jpeg00343452dfffdf42^729"[1mCpResource[0m BlackBoard/red.jpeg JenkinsBuild/BlackBoard.app/red.jpeg    cd /Users/administrator/Documents/Blackboard    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/administrator/Documents/Blackboard/BlackBoard/red.jpeg /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app36"E2BC5E82-00EE-4B22-BDF5-3EA3DBE60324-
+bA7591E5F-7DF5-4304-A3AA-D5CD6C73BF48
+
+CCpResource BlackBoard/voilet.jpeg JenkinsBuild/BlackBoard.app/voilet.jpeg
+s420454964.563769
+e420454964.575994
+r1
+xCpResource
+xBlackBoard/voilet.jpeg
+xJenkinsBuild/BlackBoard.app/voilet.jpeg
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy JenkinsBuild/BlackBoard.app/voilet.jpeg81"[1mCpResource[0m BlackBoard/voilet.jpeg JenkinsBuild/BlackBoard.app/voilet.jpegde739034a20fb941^fb759334a20fb941^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/voilet.jpeg00343452dfffdf42^738"[1mCpResource[0m BlackBoard/voilet.jpeg JenkinsBuild/BlackBoard.app/voilet.jpeg    cd /Users/administrator/Documents/Blackboard    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/administrator/Documents/Blackboard/BlackBoard/voilet.jpeg /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app36"472E1E55-927F-4234-AE04-9D52EF2C786D-
+bA7591E5F-7DF5-4304-A3AA-D5CD6C73BF48
+
+CCpResource BlackBoard/white.jpeg JenkinsBuild/BlackBoard.app/white.jpeg
+s420454965.377878
+e420454965.396826
+r1
+xCpResource
+xBlackBoard/white.jpeg
+xJenkinsBuild/BlackBoard.app/white.jpeg
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy JenkinsBuild/BlackBoard.app/white.jpeg79"[1mCpResource[0m BlackBoard/white.jpeg JenkinsBuild/BlackBoard.app/white.jpeg59db6035a20fb941^e59b6535a20fb941^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/white.jpeg00343452dfffdf42^735"[1mCpResource[0m BlackBoard/white.jpeg JenkinsBuild/BlackBoard.app/white.jpeg    cd /Users/administrator/Documents/Blackboard    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/administrator/Documents/Blackboard/BlackBoard/white.jpeg /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app36"F2A8BF41-3940-42A6-B90E-6492388E6994-
+bA7591E5F-7DF5-4304-A3AA-D5CD6C73BF48
+
+CCpResource BlackBoard/yellow.jpeg JenkinsBuild/BlackBoard.app/yellow.jpeg
+s420454964.548213
+e420454964.563485
+r1
+xCpResource
+xBlackBoard/yellow.jpeg
+xJenkinsBuild/BlackBoard.app/yellow.jpeg
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy JenkinsBuild/BlackBoard.app/yellow.jpeg81"[1mCpResource[0m BlackBoard/yellow.jpeg JenkinsBuild/BlackBoard.app/yellow.jpeg19728c34a20fb941^56459034a20fb941^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/yellow.jpeg00343452dfffdf42^738"[1mCpResource[0m BlackBoard/yellow.jpeg JenkinsBuild/BlackBoard.app/yellow.jpeg    cd /Users/administrator/Documents/Blackboard    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/administrator/Documents/Blackboard/BlackBoard/yellow.jpeg /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app36"3A2236A3-F806-462F-97C0-7F358383A5B6-
+bA7591E5F-7DF5-4304-A3AA-D5CD6C73BF48
+
+CCreateUniversalBinary /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/BlackBoard normal armv7\ armv7s\ arm64
+s420454964.439050
+e420454964.528013
+r1
+xCreateUniversalBinary
+x/Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/BlackBoard
+xnormal
+xarmv7 armv7s arm64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Create universal binary /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/BlackBoard104"[1mCreateUniversalBinary[0m [1mJenkinsBuild/BlackBoard.app/BlackBoard[0m normal armv7\ armv7s\ arm64c18d7034a20fb941^2c2d8734a20fb941^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/BlackBoard00343452dfffdf42^975"[1mCreateUniversalBinary[0m [1mJenkinsBuild/BlackBoard.app/BlackBoard[0m normal armv7\ armv7s\ arm64    cd /Users/administrator/Documents/Blackboard    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/BlackBoard /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/BlackBoard /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/BlackBoard -output /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/BlackBoard36"844BDF6A-FF75-42FE-983C-39810F58D0D0-
+bA7591E5F-7DF5-4304-A3AA-D5CD6C73BF48
+
+CGenerateDSYMFile /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app.dSYM /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/BlackBoard
+s420454996.688534
+e420454997.106962
+r1
+xGenerateDSYMFile
+x/Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app.dSYM
+x/Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/BlackBoard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Generate /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app.dSYM104"[1mGenerateDSYMFile[0m [1mJenkinsBuild/BlackBoard.app.dSYM[0m JenkinsBuild/BlackBoard.app/BlackBoard8d63b054a20fb941^a06f1b55a20fb941^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app.dSYM00343452dfffdf42^647"[1mGenerateDSYMFile[0m [1mJenkinsBuild/BlackBoard.app.dSYM[0m JenkinsBuild/BlackBoard.app/BlackBoard    cd /Users/administrator/Documents/Blackboard    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/BlackBoard -o /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app.dSYM36"E6D1EB26-2DCD-48C8-88AF-2D0AAF9AB0B8-
+bA7591E5F-7DF5-4304-A3AA-D5CD6C73BF48
+
+CLd /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/BlackBoard normal arm64
+s420454963.289415
+e420454964.437676
+r1
+xLd
+x/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/BlackBoard
+xnormal
+xarm64
+d/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/BlackBoard.LinkFileList
+d/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/ViewController.o
+d/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/AppDelegate.o
+d/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/main.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Link /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/BlackBoard112"[1mLd[0m build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/BlackBoard normal arm64d3324a33a20fb941^7a357034a20fb941^---0#0#1#--1380"[1mLd[0m build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/BlackBoard normal arm64    cd /Users/administrator/Documents/Blackboard    export IPHONEOS_DEPLOYMENT_TARGET=6.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/administrator/Documents/Blackboard/JenkinsBuild -F/Users/administrator/Documents/Blackboard/JenkinsBuild -filelist /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/BlackBoard.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.0 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/BlackBoard_dependency_info.dat -o /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/arm64/BlackBoard36"127EED14-F212-435B-932D-300E75E70AB5-
+bA7591E5F-7DF5-4304-A3AA-D5CD6C73BF48
+
+CLd /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/BlackBoard normal armv7
+s420454963.288466
+e420454964.437629
+r1
+xLd
+x/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/BlackBoard
+xnormal
+xarmv7
+d/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/BlackBoard.LinkFileList
+d/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/ViewController.o
+d/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/AppDelegate.o
+d/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/main.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Link /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/BlackBoard112"[1mLd[0m build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/BlackBoard normal armv7bbee4933a20fb941^7c0e7034a20fb941^---0#0#1#--1380"[1mLd[0m build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/BlackBoard normal armv7    cd /Users/administrator/Documents/Blackboard    export IPHONEOS_DEPLOYMENT_TARGET=6.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/administrator/Documents/Blackboard/JenkinsBuild -F/Users/administrator/Documents/Blackboard/JenkinsBuild -filelist /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/BlackBoard.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.0 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/BlackBoard_dependency_info.dat -o /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7/BlackBoard36"8B1F06B6-3EA6-42D3-8A2A-3ADCA3CA5ADE-
+bA7591E5F-7DF5-4304-A3AA-D5CD6C73BF48
+
+CLd /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/BlackBoard normal armv7s
+s420454963.288852
+e420454964.437462
+r1
+xLd
+x/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/BlackBoard
+xnormal
+xarmv7s
+d/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/BlackBoard.LinkFileList
+d/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/ViewController.o
+d/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/AppDelegate.o
+d/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/main.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Link /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/BlackBoard114"[1mLd[0m build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/BlackBoard normal armv7s96064a33a20fb941^ac037034a20fb941^---0#0#1#--1386"[1mLd[0m build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/BlackBoard normal armv7s    cd /Users/administrator/Documents/Blackboard    export IPHONEOS_DEPLOYMENT_TARGET=6.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/administrator/Documents/Blackboard/JenkinsBuild -F/Users/administrator/Documents/Blackboard/JenkinsBuild -filelist /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/BlackBoard.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.0 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/BlackBoard_dependency_info.dat -o /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/Objects-normal/armv7s/BlackBoard36"2B935659-1B2A-4BE4-A59F-8D7BB45C2E3E-
+bA7591E5F-7DF5-4304-A3AA-D5CD6C73BF48
+
+CProcessInfoPlistFile /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/Info.plist /Users/administrator/Documents/Blackboard/BlackBoard/BlackBoard-Info.plist
+s420454996.563258
+e420454996.687534
+r1
+xProcessInfoPlistFile
+x/Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/Info.plist
+x/Users/administrator/Documents/Blackboard/BlackBoard/BlackBoard-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Process /Users/administrator/Documents/Blackboard/BlackBoard/BlackBoard-Info.plist108"[1mProcessInfoPlistFile[0m JenkinsBuild/BlackBoard.app/Info.plist [1mBlackBoard/BlackBoard-Info.plist[0mad509054a20fb941^d102b054a20fb941^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/administrator/Documents/Blackboard/BlackBoard/BlackBoard-Info.plist0000000000000000^990"[1mProcessInfoPlistFile[0m JenkinsBuild/BlackBoard.app/Info.plist [1mBlackBoard/BlackBoard-Info.plist[0m    cd /Users/administrator/Documents/Blackboard    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-infoPlistUtility /Users/administrator/Documents/Blackboard/BlackBoard/BlackBoard-Info.plist -genpkginfo /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/ResourceRules.plist -additionalcontentfile /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/assetcatalog_generated_info.plist -o /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/Info.plist36"DAEE3B74-47D7-43FC-B93A-86EA51835E1E-
+bA7591E5F-7DF5-4304-A3AA-D5CD6C73BF48
+
+CProcessPCH /var/folders/8g/_4fy7d5x4vs5y2xl3dm0x2wm0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BlackBoard-Prefix-cgmkxwmfwbocwyekglfaimdadkec/BlackBoard-Prefix.pch.pch BlackBoard/BlackBoard-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /var/folders/8g/_4fy7d5x4vs5y2xl3dm0x2wm0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BlackBoard-Prefix-dqunidpflmcuyfgbjmdtjyhogehz/BlackBoard-Prefix.pch.pch BlackBoard/BlackBoard-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /var/folders/8g/_4fy7d5x4vs5y2xl3dm0x2wm0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BlackBoard-Prefix-fvrsfufxvrvkoqcauicgrbckfper/BlackBoard-Prefix.pch.pch BlackBoard/BlackBoard-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard.xcent
+s420454997.160716
+e420454997.214089
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+x/Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard.xcent
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection234"[1mProcessProductPackaging[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist [1mbuild/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard.xcent[0m234"[1mProcessProductPackaging[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist [1mbuild/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard.xcent[0m363c2955a20fb941^64cf3655a20fb941^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard.xcent00343452dfffdf42^820"[1mProcessProductPackaging[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist [1mbuild/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard.xcent[0m    cd /Users/administrator/Documents/Blackboard    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/administrator/Documents/Blackboard/build/BlackBoard.build/Release-iphoneos/BlackBoard.build/BlackBoard.xcent36"0E0D5A52-F0A8-4493-8B57-C7A2A04ADFFB-
+bA7591E5F-7DF5-4304-A3AA-D5CD6C73BF48
+
+CProcessProductPackaging /Users/administrator/Library/MobileDevice/Provisioning\ Profiles/F4162104-89B6-4483-9195-AD747F1C8929.mobileprovision /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/embedded.mobileprovision
+s420454997.108101
+e420454997.146177
+r1
+xProcessProductPackaging
+x/Users/administrator/Library/MobileDevice/Provisioning Profiles/F4162104-89B6-4483-9195-AD747F1C8929.mobileprovision
+x/Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection210"[1mProcessProductPackaging[0m /Users/administrator/Library/MobileDevice/Provisioning\ Profiles/F4162104-89B6-4483-9195-AD747F1C8929.mobileprovision [1mJenkinsBuild/BlackBoard.app/embedded.mobileprovision[0m210"[1mProcessProductPackaging[0m /Users/administrator/Library/MobileDevice/Provisioning\ Profiles/F4162104-89B6-4483-9195-AD747F1C8929.mobileprovision [1mJenkinsBuild/BlackBoard.app/embedded.mobileprovision[0mf9d61b55a20fb941^a46c2555a20fb941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/embedded.mobileprovision00343452dfffdf42^746"[1mProcessProductPackaging[0m /Users/administrator/Library/MobileDevice/Provisioning\ Profiles/F4162104-89B6-4483-9195-AD747F1C8929.mobileprovision [1mJenkinsBuild/BlackBoard.app/embedded.mobileprovision[0m    cd /Users/administrator/Documents/Blackboard    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-productPackagingUtility /Users/administrator/Library/MobileDevice/Provisioning\ Profiles/F4162104-89B6-4483-9195-AD747F1C8929.mobileprovision -o /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/embedded.mobileprovision36"59328122-0EE1-438E-B3EE-D2BE8AC60868-
+bA7591E5F-7DF5-4304-A3AA-D5CD6C73BF48
+
+CTouch /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app
+r0
+
+CValidate /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app
+s420454998.672025
+e420454999.186026
+r1
+xValidate
+x/Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"[1mValidate[0m [1mJenkinsBuild/BlackBoard.app[0m52"[1mValidate[0m [1mJenkinsBuild/BlackBoard.app[0md219ac56a20fb941^e8a02f57a20fb941^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app/0000000000000000^569"[1mValidate[0m [1mJenkinsBuild/BlackBoard.app[0m    cd /Users/administrator/Documents/Blackboard    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    export PRODUCT_TYPE=com.apple.product-type.application    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/administrator/Documents/Blackboard/JenkinsBuild/BlackBoard.app36"4B60E7BD-3D5B-4851-90D3-D3514059DE41-
+bA7591E5F-7DF5-4304-A3AA-D5CD6C73BF48
+
